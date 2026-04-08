@@ -1,0 +1,11 @@
+# Ignore tout (fichiers et répertoires)
+*
+
+# Réinclure les fichiers .tex (y compris dans les sous-dossiers)
+!**/*.tex
+
+# Réinclure le fichier .gitignore lui-même (important !)
+!.gitignore
+
+# Optionnel : réinclure certains répertoires si besoin (ex: pour garder la structure vide)
+!*/
