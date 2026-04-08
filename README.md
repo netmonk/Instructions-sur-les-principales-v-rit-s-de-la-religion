@@ -1,6 +1,18 @@
-# Construction du PDF sous Linux
+# Instructions sur les principales vérités de la Religion
 
-Ce dépôt contient le document LaTeX `instructions.tex`.
+Ce dépôt contient la source LaTeX du livre
+`Instructions sur les principales vérités de la Religion, et sur les principaux devoirs du christianisme`,
+dans son édition de `1833`.
+
+L'ouvrage est attribué à l'`Abbé HUMBERT`, aussi désigné dans la notice biographique comme le
+`P. Humbert` ou `Hubert Humbert`, missionnaire du diocèse de Besançon né vers `1685/1686` et mort
+en `1778`.
+
+Le document principal est [`instructions.tex`](instructions.tex). Il assemble la page de titre,
+la table des matières, une notice sur l'auteur et les différents chapitres du livre.
+
+## Fabriquer le PDF sous Linux
+
 La compilation produit le fichier `instructions.pdf`.
 
 ## Prérequis
