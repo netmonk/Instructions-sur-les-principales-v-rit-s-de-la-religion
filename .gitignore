@@ -3,6 +3,8 @@
 
 # Réinclure les fichiers .tex (y compris dans les sous-dossiers)
 !**/*.tex
+!**/*.md
+!**/*.yml
 
 # Réinclure le fichier .gitignore lui-même (important !)
 !.gitignore
