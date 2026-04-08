@@ -17,7 +17,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v4   # version récente et maintenue
         with:
-          root_file: main.tex             # ← change si ton fichier principal s'appelle autrement
+          root_file: instructions.tex             # ← change si ton fichier principal s'appelle autrement
           # working_directory: ./latex    # si tes .tex sont dans un sous-dossier
           # compiler: latexmk             # par défaut c'est latexmk (le meilleur)
           # args: -pdf -synctex=1 -interaction=nonstopmode  # options supplémentaires si besoin
